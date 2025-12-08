@@ -68,6 +68,7 @@ We conducted a comprehensive quality assessment of both datasets using the follo
 
 
 ## Data Profile
+
 For this project, we used two different global datasets: the World Population by Country, which is sourced from the United Nations Data Portal, and the Cost of Living Index by Country, which is sourced from Numbeo. Both of these datasets provide sufficient information for data integration and comparative analysis. This project will help to identify if smaller populations are linked to higher living costs and see if other factors play a role in the cost of living of a country. Doing this could uncover global trends that reveal how a country’s population density, economy, and standards of living interact with one another. 
 
 Even though both datasets have been obtained through Kaggle.com and may raise concerns for credibility, we traced back where the data actually comes from credible organizations.
@@ -110,6 +111,7 @@ Overall, both of the datasets used for this project were legally permissible to 
   - Local Purchasing Power Index
 
 ## Data Quality
+
 Checking the quality of both the World Population dataset and the Cost of Living Index dataset was a very important step of our analysis. Some of the things we checked for in our datasets were ensuring the information was credible or accurate, consistent formatting, and reliable for analysis. After checking these measures, we concluded that the data quality for both of the datasets was high since they had no missing or null values, no issues with formatting, and no spelling errors. Because of this, we then merged our datasets by country name and checked the quality of the merged dataset. Even after merging, there were still no issues with formatting, spelling, and consistency. Even though there were no issues with our datasets, we still kept in mind of potential biases that there may be since no dataset is perfect. After merging the datasets together, we made sure to check for consistency, completeness, accuracy, and potential biases that may be hidden within the data. 
 
 The first thing we looked at was the completeness of the dataset. Both datasets had complete data, where there were no missing or null values. Because of this, we saved a lot of time since we did not have to spend time cleaning the dataset, fixing formatting issues, and removing or adding rows.
@@ -152,7 +154,6 @@ Overall, the main findings from our analysis are that population size has a weak
 
 
 ## Future Work
-
 
 Throughout this project, we learned small, valuable lessons and practices that could help us in future analysis.
 
