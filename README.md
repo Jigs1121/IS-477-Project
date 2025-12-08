@@ -2,8 +2,8 @@
 
 # Cost of Living in Different Country Populations
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-*Note: Update with actual DOI after Zenodo archival*
+[![DOI](https://zenodo.org/badge/1059042947.svg)](https://doi.org/10.5281/zenodo.17850609)
+
 
 ## Contributors
 - Neel Roy
