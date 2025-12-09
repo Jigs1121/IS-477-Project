@@ -222,7 +222,7 @@ pip install -r requirements.txt
 
 Due to file size constraints, datasets are stored on Box:
 
-**Box Data Repository**: [INSERT YOUR BOX SHARE LINK HERE]
+**Box Data Repository**: https://uofi.box.com/s/s2lr02f4u3a3kyyjcocqimc80b5vxmdz
 
 Download the following files and place them in the `Datasets/` folder:
 - `World Population by country 2024.csv`
