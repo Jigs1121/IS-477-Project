@@ -28,7 +28,7 @@
   "distribution": [
     {
       "@type": "DataDownload",
-      "contentUrl": "[YOUR BOX LINK]",
+      "contentUrl": "https://uofi.box.com/s/s2lr02f4u3a3kyyjcocqimc80b5vxmdz",
       "encodingFormat": "text/csv"
     }
   ],
