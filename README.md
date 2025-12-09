@@ -376,46 +376,6 @@ Generate current environment snapshot:
 pip freeze > installed_packages.txt
 ```
 
-## Data Provenance
-
-### Data Acquisition
-1. **UN Population Data**: Downloaded from UN Data Portal on [date]
-2. **Numbeo Cost Data**: Downloaded from Numbeo website on [date]
-
-### Data Processing Pipeline
-```
-Raw Data → Cleaning → Integration → Analysis → Visualization
-    ↓          ↓           ↓           ↓            ↓
-  CSV       Handle      Merge on   Correlation   PNG files
-  files     missing     country    analysis      
-            values      names                     
-```
-
-### Processing Steps
-
-1. **Data Import** (`Analysis.ipynb` cells 1-2)
-   - Load both CSV files
-   - Initial data inspection
-
-2. **Data Cleaning** (`Analysis.ipynb` cells 3-5)
-   - Handle missing values
-   - Standardize country names
-   - Remove duplicates
-
-3. **Data Integration** (`Analysis.ipynb` cells 6-7)
-   - Merge datasets on country name
-   - Verify merge quality
-
-4. **Analysis** (`Analysis.ipynb` cells 8-12)
-   - Calculate correlations
-   - Statistical testing
-   - Generate summary statistics
-
-5. **Visualization** (`Analysis.ipynb` cells 13-15)
-   - Create scatter plots
-   - Generate correlation heatmap
-   - Export as PNG files
-
 ## Licenses
 
 ### Code License
