@@ -110,6 +110,46 @@ Overall, both of the datasets used for this project were legally permissible to 
   - Restaurant Price Index
   - Local Purchasing Power Index
 
+## Data Provenance
+
+### Data Acquisition Timeline
+1. **UN Population Data**: Downloaded November 2024 from UN Data Portal
+2. **Numbeo Cost Data**: Downloaded November 2024 from Numbeo website
+
+### Data Processing Pipeline
+```
+Raw Data → Cleaning → Integration → Analysis → Visualization
+    ↓          ↓           ↓           ↓            ↓
+  CSV       Handle      Merge on   Correlation   PNG files
+  files     missing     country    analysis      
+            values      names                     
+```
+
+### Processing Steps Documented in Analysis.ipynb
+
+1. **Data Import** 
+   - Load both CSV files using pandas
+   - Initial data inspection with `.head()` and `.info()`
+
+2. **Data Cleaning** 
+   - Verify no missing values
+   - Standardize country names
+   - Remove unnecessary columns (e.g., Population_2023)
+
+3. **Data Integration** 
+   - Merge datasets on country name using inner join
+   - Verify merge quality (140+ countries matched)
+
+4. **Analysis** 
+   - Calculate correlation matrix
+   - Statistical significance testing (p-values)
+   - Generate summary statistics by population category
+
+5. **Visualization** 
+   - Create scatter plots (population vs cost of living)
+   - Generate correlation heatmap
+   - Export as PNG files to Visualizations/ folder
+
 ## Data Quality
 
 Checking the quality of both the World Population dataset and the Cost of Living Index dataset was a very important step of our analysis. Some of the things we checked for in our datasets were ensuring the information was credible or accurate, consistent formatting, and reliable for analysis. After checking these measures, we concluded that the data quality for both of the datasets was high since they had no missing or null values, no issues with formatting, and no spelling errors. Because of this, we then merged our datasets by country name and checked the quality of the merged dataset. Even after merging, there were still no issues with formatting, spelling, and consistency. Even though there were no issues with our datasets, we still kept in mind of potential biases that there may be since no dataset is perfect. After merging the datasets together, we made sure to check for consistency, completeness, accuracy, and potential biases that may be hidden within the data. 
