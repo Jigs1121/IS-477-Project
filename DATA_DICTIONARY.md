@@ -3,6 +3,17 @@
 ## Merged Dataset Columns
 This dataset combines UN Population data and Numbeo Cost of Living data.
 
+| Column Name | Data Type | Description | Source |
+|---|---|---|---|
+| **Country** | String | Name of the country/territory. Key used for merging. | Both |
+| **Population** | Integer | Total population count (2024). | UN Data |
+| **Density** | Float | Population density (people per km²). | UN Data |
+| **Cost of Living Index** | Float | Relative cost of consumer goods (Excl. rent). NYC = 100. | Numbeo |
+| **Rent Index** | Float | Estimation of prices of renting apartments. NYC = 100. | Numbeo |
+| **Groceries Index** | Float | Estimation of grocery prices. NYC = 100. | Numbeo |
+| **Restaurant Price Index** | Float | Comparison of prices of meals and drinks. NYC = 100. | Numbeo |
+| **Local Purchasing Power** | Float | Relative purchasing power in buying goods/services. NYC = 100. | Numbeo |
+
 ## Merged Dataset Variables
 
 ### From World Population Dataset
