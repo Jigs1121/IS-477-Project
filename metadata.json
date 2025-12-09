@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.w3.org/ns/dcat#",
+  "@type": "Dataset",
+  "title": "Cost of Living in Different Country Populations",
+  "description": "Analysis exploring the relationship between country population size and cost of living across 140+ countries in 2024, integrating UN population data with Numbeo cost indices.",
+  "keyword": ["cost of living", "population", "economics", "global data", "data integration"],
+  "issued": "2024-12-07",
+  "modified": "2024-12-07",
+  "language": "en",
+  "contactPoint": {
+    "fn": "Neel Roy and Jigon Kim",
+    "hasEmail": "mailto:[your-email]@illinois.edu"
+  },
+  "creator": [
+    {
+      "name": "Neel Roy",
+      "affiliation": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "name": "Jigon Kim",
+      "affiliation": "University of Illinois Urbana-Champaign"
+    }
+  ],
+  "publisher": {
+    "name": "University of Illinois Urbana-Champaign",
+    "department": "School of Information Sciences"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://uofi.box.com/s/s2lr02f4u3a3kyyjcocqimc80b5vxmdz",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "temporalCoverage": "2024",
+  "spatialCoverage": "Global",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "accessLevel": "public"
+}
