@@ -279,20 +279,20 @@ IS-477-Project/
 └── ...
 ```
 
-#### Data Integrity Verification (Optional)
+#### Data Integrity Verification 
 
 Verify file integrity using SHA-256 checksums:
-```bash
-# On Mac/Linux:
-shasum -a 256 Datasets/*.csv
-
-# On Windows PowerShell:
-Get-FileHash Datasets\*.csv -Algorithm SHA256
-```
 
 Expected checksums:
-- `World Population by country 2024.csv`: [INSERT CHECKSUM]
-- `Cost_of_Living_Index_by_Country_2024.csv`: [INSERT CHECKSUM]
+- `World Population by country 2024.csv`:
+- Algorithm: SHA256
+- Hash: B8713561F74A81813C44732E5107E8DCED9526A9674BBAB701C6819E4049FED1
+- `Cost_of_Living_Index_by_Country_2024.csv`:
+- Algorithm: SHA256
+- Hash: 50BEAE3CC46D371CBA9F40595E22F904F6A6ECA000BDF71CC2F218BDEC52BB65
+- `merged_population_dataset.csv`:
+- Algorithm: SHA256
+- Hash: B8E9E3535D3FC3FA0B182504A5A820B8F1FDFB2BE0FC0CEE4D0D4A5727AC36E5
 
 ### Step 4: Run the Analysis
 
